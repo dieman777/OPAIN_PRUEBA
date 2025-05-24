@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+</head>
+<body>
+  <form (ngSubmit)="RegistrarProduct()">
+    <label>Producto:</label>
+    <input type="text" [(ngModel)]="formProducto.NAME" name="NAME" class="form-control" />
+    <label>Descripción:</label>
+    <textarea [(ngModel)]="formProducto.DESCRIPTION" name="DESCRIPTION" class="form-control"></textarea>
+    <label>Producto:</label>
+    <input type="text" [(ngModel)]="formProducto.PRICE" name="PRICE" class="form-control" />
+    <button type="submit" class="btn btn-primary">Guardar</button>
+  </form>
+  <div *ngIf="mensaje" class="alert alert-success" style="margin-top:10px;">
+    {{ mensaje }}
+  </div>
+</body>
+</html>

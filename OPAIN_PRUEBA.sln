@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.35906.104 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "opain_prueba.client", "opain_prueba.client\opain_prueba.client.esproj", "{EF30E0FB-6250-8CE3-5C5A-B4A39B07CEF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OPAIN_PRUEBA.Server", "OPAIN_PRUEBA.Server\OPAIN_PRUEBA.Server.csproj", "{1823A750-9FE5-4DAA-908E-4E7722765780}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF30E0FB-6250-8CE3-5C5A-B4A39B07CEF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF30E0FB-6250-8CE3-5C5A-B4A39B07CEF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF30E0FB-6250-8CE3-5C5A-B4A39B07CEF4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EF30E0FB-6250-8CE3-5C5A-B4A39B07CEF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF30E0FB-6250-8CE3-5C5A-B4A39B07CEF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF30E0FB-6250-8CE3-5C5A-B4A39B07CEF4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1823A750-9FE5-4DAA-908E-4E7722765780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1823A750-9FE5-4DAA-908E-4E7722765780}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1823A750-9FE5-4DAA-908E-4E7722765780}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1823A750-9FE5-4DAA-908E-4E7722765780}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1215252C-5862-40D3-B68D-0EDF988854C1}
+	EndGlobalSection
+EndGlobal

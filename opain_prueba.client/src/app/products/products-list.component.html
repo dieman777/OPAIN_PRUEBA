@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+</head>
+<body>
+
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Producto</th>
+        <th>Descripción</th>
+        <th>Price</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let dato of datosTabla; let i = index">
+        <td>{{ i }}</td>
+        <td>{{ dato.name }}</td>
+        <td>{{ dato.description }}</td>
+        <td>${{ dato.price }}</td>
+        <td><button class="btn btn-primary" (click)="EditProduct(dato.id)">Editar</button>
+            <button class="btn btn-danger" (click)="DeleteProduct(dato.id)">Eliminar</button></td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>

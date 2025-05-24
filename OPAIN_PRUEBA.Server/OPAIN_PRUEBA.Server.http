@@ -1,0 +1,6 @@
+@OPAIN_PRUEBA.Server_HostAddress = http://localhost:5285
+
+GET {{OPAIN_PRUEBA.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
